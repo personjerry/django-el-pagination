@@ -115,7 +115,7 @@ different paginations to different page templates.
 You can chain decorator calls relating a template to the associated
 querystring key, e.g.::
 
-    from endless_pagination.decorators import page_template
+    from el_pagination.decorators import page_template
 
     @page_template('myapp/entries_page.html')
     @page_template('myapp/other_entries_page.html', key='other_entries_page')
